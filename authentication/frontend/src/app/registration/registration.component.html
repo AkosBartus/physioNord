@@ -1,0 +1,8 @@
+<div class="">
+    <input type="text" placeholder="Email" [(ngModel)]="email">
+    <input type="password" placeholder="Password" [(ngModel)]="password">
+    <input type="password" placeholder="Password Again" [(ngModel)]="passwordAgain">
+    <button (click)="onRegisterClick()">Register</button>
+</div>
+<div *ngIf="validationError">{{ validationError }}</div>
+<hr>
