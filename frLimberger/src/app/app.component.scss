@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+    margin: auto;
+}
+
+#tel-picture {
+    color: gray
+}
+
+#email-picture {
+    color: gray
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0 5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(98, 175, 238);
+}
+
+a:hover {
+    border-bottom: solid gray 1px;
+}
