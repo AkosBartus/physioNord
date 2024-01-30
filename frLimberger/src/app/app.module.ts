@@ -30,7 +30,7 @@ import { AnmeldenComponent } from './anmelden/anmelden.component';
       { path: 'uber-mich', component: UberMichComponent},
       { path: 'kontakt', component: KontaktComponent},
       { path: 'anmelden', component: AnmeldenComponent}
-    ])
+    ]),
   ],
   providers: [],
   bootstrap: [AppComponent]
