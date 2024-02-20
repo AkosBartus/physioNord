@@ -7,6 +7,25 @@
   src: url("./../fonts/Cantarell-Regular.ttf");
 }
 
-body {
-    font-family: Cantarell-Regular;
+.head-contact {
+  display: flex;
+  justify-items: center;
+  justify-content:space-between;
+  gap: 1rem;
+  background-color: black;
+  color: white;
+  font-family: Cantarell-Regular;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-size: clamp(0.5rem, 1rem, 2.5vw);
+}
+
+.my-button {
+  background-image: url('../images/IMG_0605.PNG');
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  height: 30px;
 }

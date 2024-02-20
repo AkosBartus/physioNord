@@ -10,6 +10,10 @@ import { LeistungenComponent } from './leistungen/leistungen.component';
 import { UberMichComponent } from './uber-mich/uber-mich.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
 import { AnmeldenComponent } from './anmelden/anmelden.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon'
+import { MatButtonModule } from '@angular/material/button'
 
 @NgModule({
   declarations: [
@@ -31,6 +35,10 @@ import { AnmeldenComponent } from './anmelden/anmelden.component';
       { path: 'kontakt', component: KontaktComponent},
       { path: 'anmelden', component: AnmeldenComponent}
     ]),
+    FlexLayoutModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

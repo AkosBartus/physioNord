@@ -1,29 +1,22 @@
-<body>
-    <header>
-        <picture id="tel-picture">+43 660 12 34 567</picture>
-        <h1 id="logo">Ordination Frau Eva Limberger Bsc</h1>
-        <picture id="email-picture">office@fr-limberger.at</picture>
-    </header>
+<!-- <div class="head-contact">
+  <span> tel.: +43 6801740865 </span>
+  <span> office&#64;physio-nord.at </span>
+</div> -->
 
-    <nav class="navbar bg-orange-200 gap-16 justify-end pr-14">
-        <a routerLink="/home" routerLinkActive="navbar-item" class="navbar-item">Startseite</a>
-        
-        <div routerLink="/leistungen" routerLinkActive="navbar-item" class="dropdown navbar-item">
-          <button class="navbar-item">Leistungen</button>
-          <i></i>
-          <div class="dropdown-content">
-              <a routerLink="/leistungen1" routerLinkActive="navbar-item" class="">Leistung 1</a>
-              <a routerLink="/leistungen2" routerLinkActive="navbar-item" class="">Leistung 2</a>
-              <a routerLink="/leistungen3" routerLinkActive="navbar-item" class="">Leistung 3</a>
-          </div>
-        </div>
-      
-        <a routerLink="/uber-mich" routerLinkActive="navbar-item" class="">Über mich</a>
-        <a routerLink="/kontakt" routerLinkActive="navbar-item" class="">Kontakt</a>
-        <a routerLink="/anmelden" routerLinkActive="navbar-item" class="">Anmelden</a>
-      </nav>
-      
-    <router-outlet></router-outlet>
-    
-    <footer>Footer Content</footer>
-</body>
+<nav class="flex justify-evenly pr-[20vw] pl-[20vw] p-5 bg-white text-gray-600">
+  <button>Home</button>
+  <button>Über uns</button>
+  <button>Patienteninfo</button>
+  <button>Galerie</button>
+  <button>Kontakt</button>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="footer p-10 text-neutral-content bg-black">
+  <aside>
+    <p>Physio Nord<br />Providing reliable tech since 2023</p>
+  </aside>
+  <nav>
+  </nav>
+</footer>

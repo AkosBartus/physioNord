@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frLimberger';
+
+  showMenu: boolean = false
+
+  toggleMenu() {
+    this.showMenu = !this.showMenu
+  }
 }
